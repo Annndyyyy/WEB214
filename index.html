@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Journax</title>
+    <style>
+      
+      .container {
+        padding: 20px;
+      }
+
+      .footer {
+        background-color: #2196f3;
+        color: white;
+        padding: 10px;
+        text-align: center;
+      }
+      .ev-article {
+        background-color: #f1f1f1;
+        padding: 20px;
+      }
+      .ev-article .image {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .ev-article .aside {
+        background-color: #f1f1f1;
+        padding: 20px;
+        text-align: left;
+      }
+      .footer {
+        background-color: #111;
+        color: #fff;
+        padding: 40px 20px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+      .footer div {
+        margin: 10px;
+      }
+      .footer h3 {
+        margin-bottom: 10px;
+      }
+      .footer ul {
+        list-style: none;
+        padding: 0;
+      }
+      .footer ul li {
+        margin-bottom: 5px;
+      }
+      .footer ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+      .footer ul li a:hover {
+        text-decoration: underline;
+      }
+      .social-icons {
+        display: flex;
+        gap: 10px;
+      }
+      .social-icons a {
+        color: #fff;
+        font-size: 20px;
+        text-decoration: none;
+      }
+      .advertise {
+        background-color: #fff;
+        color: #000;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-align: center;
+      }
+      .newsletter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 20px;
+        background-color: #f0f0f0;
+      }
+      .newsletter-content {
+        background-color: #e6f7ff;
+        padding: 40px;
+        border-radius: 10px;
+        width: 45%;
+        text-align: center;
+      }
+      .newsletter-content h2 {
+        margin-bottom: 20px;
+      }
+      .newsletter-content p {
+        margin-bottom: 20px;
+      }
+      .newsletter-content input[type="email"] {
+        padding: 10px;
+        width: 70%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-right: 10px;
+      }
+      .newsletter-content button {
+        padding: 10px 20px;
+        border: none;
+        background-color: #000;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .newsletter-content button:hover {
+        background-color: #444;
+      }
+      .newsletter-image {
+        width: 45%;
+        text-align: center;
+      }
+      .newsletter-image img {
+        max-width: 100%;
+        border-radius: 10px;
+      }
+      .footer-bottom {
+        text-align: center;
+        padding: 20px;
+        background-color: #000;
+        color: #fff;
+      }
+      .staff-writers {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.staff-writer {
+  width: 24%;
+  text-align: center;
+}
+
+.staff-writer img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.staff-writer h3 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.staff-writer p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.view-all {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.view-all a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.view-all a:hover {
+  text-decoration: underline;
+}
+.one {
+    width: 300px;
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.one:hover {
+    transform: scale(1.05); /* Slightly enlarge the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+    cursor: pointer;
+}
+    
+      
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <a href="#"><li>About us</li></a>
+          <a href="#"><li>News</li></a>
+          <a href="#"><li>Authors</li></a>
+          <a href="#"><li>Newsletter Plans</li></a>
+          <a href="#"><li>Contact us</li></a>
+          <a href="#"><li>Advertise</li></a>
+          <a href="#"><li>Sign Up</li></a>
+        </ul>
+      </div>
+      <h1>JOURNAX</h1>
+      <div class="Subscribe">Subscribe</div>
+    </div>
+    <div class="navbar2">
+      <ul>
+        <li><a href="#">Health</a></li>
+        <li><a href="#">Politics</a></li>
+        <li><a href="#">Sports</a></li>
+        <li><a href="#">World News</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Technology</a></li>
+        <li><a href="#">Cart (0)</a></li>
+      </ul>
+    </div>
+    <div class="container">
+      <div class="main-article">
+        <div class="main-article-text">
+          <h2>Unveiling the stories & significance of historic landmarks</h2>
+          <div>
+            <p>
+              Discover the rich heritage, architectural marvels, and pivotal
+              events that have shaped these iconic sites. Through our in-depth
+              coverage, gain a deeper appreciation for the legacy.
+            </p>
+            <p><em>Marvin McKinney - June 29, 2024</em></p>
+          </div>
+        </div>
+        <img class="one" src="f1.jpg" alt="Historic Landmark" />
+      </div>
+      <div class="articles">
+        <div class="article">
+          <img class="one" src="f2.jpg" alt="Next-gen sports star" />
+          <h3>The rise of next-gen sports stars</h3>
+          <p>
+            From breakthrough performances to inspiring stories, we spotlight
+            the next generation of athletes making waves in the sports world.
+          </p>
+          <p class="author">Leslie Alexander</p>
+        </div>
+        <div class="article">
+          <img class="one" src="f3.jpg" alt="Electric vehicle" />
+          <h3>Advancements in electric vehicle technology</h3>
+          <p>
+            Explore the latest innovations shaping the future of electric
+            vehicles. From cutting-edge battery technologies to advancements in
+            autonomous driving.
+          </p>
+          <p class="author">Wade Warren</p>
+        </div>
+        <div class="article">
+          <img class="one" src="f4.jpg" alt="AI technology" />
+          <h3>Tech giant acquires AI startup for $2 billion</h3>
+          <p>
+            Acquired an AI startup for $2 billion, aiming to enhance its
+            technological capabilities and expand its influence in the
+            artificial intelligence sector.
+          </p>
+          <p class="author">Theresa Webb</p>
+        </div>
+      </div>
+      <div class="editors-choice">
+        <h2>Editor's Choice</h2>
+        <div class="choice-articles">
+          <div class="choice-article">
+            <img class="one" src="f5.jpg" alt="International community meeting" />
+            <h3>International community expresses hope for resolution</h3>
+            <p class="category">World News</p>
+          </div>
+          <div class="choice-article">
+            <img class="one" src="f6.jpg" alt="Racing cars" />
+            <h3>Season's most dramatic races</h3>
+            <p class="category">Sports</p>
+          </div>
+          <div class="choice-article">
+            <img class="one" src="f7.jpg" alt="Transportation innovation" />
+            <h3>Innovations driving the future of transportation</h3>
+            <p class="category">Technology</p>
+          </div>
+          <div class="choice-article">
+            <img class="one" src="f8.jpg" alt="Business meeting" />
+            <h3>
+              Supply chain disruptions challenges and solutions for businesses
+              worldwide
+            </h3>
+            <p class="category">Business</p>
+          </div>
+        </div>
+      </div>
+      <div class="ev-article">
+        <div class="header">
+          <h1>Advancements in electric vehicle technology</h1>
+        </div>
+        <div class="content">
+          <div class="article">
+            <img class="one" src="f9.jpg" alt="Scooter" class="image" />
+            <p>
+              Explore the latest innovations shaping the future of electric
+              vehicles. From cutting-edge battery technologies to advancements
+              in autonomous driving.
+            </p>
+          </div>
+          <div class="aside">
+            <p>June 29, 2024</p>
+            <p>Wade Warren</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="staff-writers">
+      <div class="staff-writer">
+        <img class="one" src="f11.jpg" alt="Theresa Webb">
+        <h3>Theresa Webb</h3>
+        <p>Senior Reporter</p>
+      </div>
+      <div class="staff-writer">
+        <img class="one" src="f12.jpg" alt="Marvin McKinney">
+        <h3>Marvin McKinney</h3>
+        <p>Publisher</p>
+      </div>
+      <div class="staff-writer">
+        <img class="one" src="f13.jpg" alt="Wade Warren">
+        <h3>Wade Warren</h3>
+        <p>Content Writer</p>
+      </div>
+      <div class="staff-writer">
+        <img class="one" src="f14.jpg" alt="Leslie Alexander">
+        <h3>Leslie Alexander</h3>
+        <p>Editorialist</p>
+      </div>
+      <div class="view-all">
+        <a href="#">View All →</a>
+      </div>
+    </section>
+    <div class="newsletter">
+      <div class="newsletter-content">
+        <h2>Subscribe Our Newsletter</h2>
+        <p>Empower yourself subscribe to our expert analysis and insights</p>
+        <p>
+          From breaking news to thought-provoking opinion pieces, our newsletter
+          keeps you informed.
+        </p>
+        <input type="email" placeholder="Enter your e-mail..." />
+        <button>Subscribe Now</button>
+      </div>
+      <div class="newsletter-image">
+        <img class="one" src="f15.png" alt="Newsletter Image" />
+      </div>
+    </div>
+
+    <div class="footer">
+      <div>
+        <h3>Pages</h3>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Authors</a></li>
+          <li><a href="#">Newsletter Plans</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Sign Up</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Category</h3>
+        <ul>
+          <li><a href="#">Health</a></li>
+          <li><a href="#">Politics</a></li>
+          <li><a href="#">Sports</a></li>
+          <li><a href="#">World News</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">Technology</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Advertise</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">License</a></li>
+          <li><a href="#">Style Guide</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-youtube"></a>
+        </div>
+        <div>
+          <a href="mailto:info@example.com">info@example.com</a>
+        </div>
+        <div class="advertise">Advertise with us</div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2024 Journax. Designed by Nixar. Powered by Webflow.</p>
+    </div>
+  </body>
+</html>
+
